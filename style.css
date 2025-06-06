@@ -132,6 +132,103 @@ Section div p{
   margin-top: 10px;
 }
 
+.logo {
+  text-decoration: none;
+  color: black;
+}
+
+/* .logo:hover {
+  color: #444;
+} */
+
+
+/* for the home.html */
+.home-header{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px;
+    /* background-color:rgba(191, 98, 98, 0.2); */
+    
+    color:rgb(0, 0, 0)
+
+}
+
+
+.home-nav {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a.active {
+  color: rgb(255, 64, 0 , 0.6); 
+  font-weight: bold;
+  /* border-bottom: 2px solid rgb(212, 139, 139);  */
+  text-shadow: 1px 1px 1px rgba(48, 48, 48, 0.2);
+
+}
+
+.imge{
+  
+  display: flex;
+  /* background-color: #b4b0af; */
+  justify-content:left;
+  /* padding-left: 40px; */
+  margin: 40px;
+  width: 500px;
+  height: 500px;
+
+  
+}
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px 100px;
+}
+
+.about-image img {
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.about-text {
+  max-width: 600px;
+  /* display: flex; */
+  /* justify-content: center;
+  background-color: rgb(205, 178, 142); */
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.about-text p {
+  font-size: 1.3rem;
+  line-height: 1.9;
+  color: #141414;
+}
+
+.home-page{
+  background-image:url(images/backgoundhomepage.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  
+  
+}
+
+
+
+
+
 
 
 

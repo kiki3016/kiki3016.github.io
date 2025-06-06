@@ -54,11 +54,13 @@ padding: 0;
 box-sizing: border-box;}
 
 nav a:hover {
-  color: #ff0000;  /* hover color */
+  /* color: #3bbcb7;  hover color */
+  font-weight: bolder;
+  font-size: 21px;
 }
 
 header h1 {
-  font-size: 1.8em;
+  font-size: 25px;
   margin: 0;
   font-family:'Times New Roman', Times, serif;
 }

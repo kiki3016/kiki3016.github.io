@@ -116,6 +116,13 @@ Section div p{
   letter-spacing: 5px;
   margin: 0;
   text-shadow: 5px 5px 10px rgba(0,0,0,0.5); /* Optional glow */
+  position: relative;
+   height: 100vh; /* Full screen height */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: flex-end; Aligns to bottom */
+  align-items: center;
+  padding-bottom: 3vh;
 }
 
 .jassie-text {
@@ -123,7 +130,7 @@ Section div p{
   font-size: 36px;
   color: #000000;
   margin: 0;
-  text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 2px #b4b0af;
 }
 
 .subline {
@@ -221,16 +228,4 @@ nav a.active {
   background-size: cover;
   margin: 0;
   height: 100vh;
-  
-  
 }
-
-
-
-
-
-
-
-
-
-

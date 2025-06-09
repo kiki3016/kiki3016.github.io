@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body class="home-page">
+    <header class="home-header">
+        <a href="index.html" class="logo"><h1>Jaskirat<br>K.</h1></a>
+        <nav class="home-nav">
+  
+            <a href="home.html" >About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="photography.html">Photography</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="projects-carousel">
+
+<section class="carousel-container">
+
+  <div class="carousel-slide active">
+    <div class="project-video">
+      <video controls>
+        <source src="images/DORITOS_CHIPS _ANIMATION.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="project-description">
+      <h3>Doritos Chips Animation</h3>
+      <p>A bold, vibrant commercial animation made in After Effects and Illustrator.</p>
+    </div>
+  </div>
+
+  <div class="carousel-slide">
+    <div class="project-video">
+      <video controls>
+        <source src="images/motion_graphics_ rendered.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="project-description">
+      <h3>Motion Graphics Reel</h3>
+      <p>Sleek transitions and logo reveals for branding reels.</p>
+    </div>
+  </div>
+
+  <div class="carousel-slide">
+    <div class="project-video">
+      <video controls>
+        <source src="images/oswald_2_1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="project-description">
+      <h3>Oswald Title Sequence</h3>
+      <p>Cinematic title card with synced audio and type animation.</p>
+    </div>
+  </div>
+
+  <!-- Navigation buttons -->
+  <div class="carousel-dots">
+  <span class="dot active" data-index="0"></span>
+  <span class="dot" data-index="1"></span>
+  <span class="dot" data-index="2"></span>
+</div>
+
+
+</section>
+<script>
+  const slides = document.querySelectorAll('.carousel-slide');
+  const dots = document.querySelectorAll('.dot');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      dots[i].classList.remove('active');
+    });
+    slides[index].classList.add('active');
+    dots[index].classList.add('active');
+  }
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      const index = parseInt(dot.getAttribute('data-index'));
+      showSlide(index);
+    });
+  });
+
+  // Optional: show first slide on load
+  showSlide(0);
+</script>
+
+
+</body>
+</html>

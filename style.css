@@ -374,3 +374,100 @@ nav a.active {
   opacity: 1;
 }
 
+/* Contact page */
+.Contact-page{ 
+  background-image: url(images/contactbg.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: none;
+  background-color: rgb(129, 217, 177);
+  background-blend-mode: overlay;}
+
+ .contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 60px;
+  /* background-color: #f9f9f9; */
+  
+}
+
+.contact-left {
+  text-align: center;
+}
+
+.profile-img {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.contact-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.contact-right {
+  max-width: 400px;
+}
+
+.contact-note {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  font-size: 22px;
+  padding: 15px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #e3e3e3;
+  transform: scale(1.1);
+}
+
+
+.personal-quote {
+  margin-top: 150px;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.favi{
+  display: block;
+  size: 10px;
+  margin-top: 30%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+

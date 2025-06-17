@@ -191,44 +191,56 @@ nav a.active {
 }
 .about-section {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   gap: 50px;
-  padding: 30px 60px;
+  padding: 50px 0;
   
 }
 
 .about-image img {
   max-width: 300px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  border-radius: 30px;
+  box-shadow: 3px 1px 6px rgba(2, 0, 0, 0.5); 
+  
 }
 
 .about-text {
-  max-width: 300px;
-  /* display: flex; */
-  /* justify-content: center;
-  background-color: rgb(205, 178, 142); */
+  max-width: 500px;
+  /* line-height: 1.8; */
+  text-align: left;
+  
+  
 }
 
 .about-text h2 {
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0px;
+  
+  
 }
 
 .about-text p {
   font-size: 1.3rem;
   line-height: 1.9;
   color: #141414;
+  text-align: center;
 }
 
 .home-page{
-  background-image:url(images/backgoundhomepage.jpg);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-image:url(images/homeb.jpg);
+  background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: lighten;
   background-size: cover;
+  background-repeat: none;
   margin: 0;
-  height: 100vh;
+  height: 120vh;
 }
 
 
@@ -237,9 +249,15 @@ nav a.active {
 .carousel-container {
   width: 100%;
   /* max-width: 1200px; */
+  /* height: 100%; */
+
   margin: 0 auto;
-  padding: 60px 40px;
+  padding: 60px 60px;
   position: center;
+
+  /* border-color: black; */
+  /* border-style: ; */
+  
 }
 
 .carousel-slide {
@@ -258,29 +276,35 @@ nav a.active {
 }
 
 .project-video video {
-  width: 100%;
-  max-height: 1000px;
+  width: 120%;
+  max-height: 1500px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);}
 
 .project-video, .project-description {
-  width: 100%;
+  width: 70%;
   box-sizing: border-box;
 }
 
 .project-description {
   
-  padding: 20px;
+  padding: 10px;
 }
 
 .project-description h3 {
   font-size: 2rem;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .project-description p {
-    font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: center;
+  width: 50%;
+  margin-left: 130px;
+  padding: 10px;
+ 
 }
 
 /* Navigation Buttons */
@@ -460,6 +484,15 @@ nav a.active {
   margin-top: 30%;
  
 }
+.quote-image{
+ height: 280px; /* Adjust this value to align with "Jaskirat Kaur" */
+  width: 95%;
+  margin-top: 2rem; /* Pushes it down — tweak as needed */
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+  
+
 
 /* footer section */
 .site-footer {
@@ -470,6 +503,7 @@ nav a.active {
   padding: 30px;
   font-size: 0.95rem;
   margin-top: 5px;
+  margin-bottom: 0%;
   /* border-top: 1px solid #ccc; */
 }
 

@@ -205,14 +205,14 @@ nav a.active {
 
 .about-text {
   max-width: 300px;
-  /* display: flex; */
-  /* justify-content: center;
-  background-color: rgb(205, 178, 142); */
+  /* line-height: 1.8; */
+  
+  
 }
 
 .about-text h2 {
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   color: #000000;
 }
 
@@ -223,10 +223,11 @@ nav a.active {
 }
 
 .home-page{
-  background-image:url(images/backgoundhomepage.jpg);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-image:url(images/homeb.jpg);
+  background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: lighten;
   background-size: cover;
+  background-repeat: none;
   margin: 0;
   height: 100vh;
 }

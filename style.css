@@ -484,6 +484,15 @@ nav a.active {
   margin-top: 30%;
  
 }
+.quote-image{
+ height: 280px; /* Adjust this value to align with "Jaskirat Kaur" */
+  width: 95%;
+  margin-top: 2rem; /* Pushes it down — tweak as needed */
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+  
+
 
 /* footer section */
 .site-footer {

@@ -240,7 +240,7 @@ nav a.active {
   background-size: cover;
   background-repeat: none;
   margin: 0;
-  height: 100vh;
+  height: 120vh;
 }
 
 
@@ -249,9 +249,15 @@ nav a.active {
 .carousel-container {
   width: 100%;
   /* max-width: 1200px; */
+  /* height: 100%; */
+
   margin: 0 auto;
-  padding: 60px 40px;
+  padding: 60px 60px;
   position: center;
+
+  /* border-color: black; */
+  /* border-style: ; */
+  
 }
 
 .carousel-slide {
@@ -270,29 +276,35 @@ nav a.active {
 }
 
 .project-video video {
-  width: 100%;
-  max-height: 1000px;
+  width: 120%;
+  max-height: 1500px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);}
 
 .project-video, .project-description {
-  width: 100%;
+  width: 70%;
   box-sizing: border-box;
 }
 
 .project-description {
   
-  padding: 20px;
+  padding: 10px;
 }
 
 .project-description h3 {
   font-size: 2rem;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .project-description p {
-    font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: center;
+  width: 50%;
+  margin-left: 130px;
+  padding: 10px;
+ 
 }
 
 /* Navigation Buttons */
@@ -482,6 +494,7 @@ nav a.active {
   padding: 30px;
   font-size: 0.95rem;
   margin-top: 5px;
+  margin-bottom: 0%;
   /* border-top: 1px solid #ccc; */
 }
 

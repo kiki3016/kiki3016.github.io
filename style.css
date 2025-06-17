@@ -374,3 +374,22 @@ nav a.active {
   opacity: 1;
 }
 
+/* Contact page */
+.Contact-page{
+  background-image: url(images/contactbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  background-color: rgb(129, 217, 177);
+  background-blend-mode: overlay;
+  
+}
+
+
+
+
+
+
+
+
+

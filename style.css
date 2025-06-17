@@ -194,6 +194,7 @@ nav a.active {
   align-items: flex-start;
   gap: 50px;
   padding: 30px 60px;
+  
 }
 
 .about-image img {
@@ -460,6 +461,16 @@ nav a.active {
  
 }
 
+/* footer section */
+.site-footer {
+  background-color: #f2f2f2;
+  color: #555;
+  text-align: center;
+  padding: 30px;
+  font-size: 0.95rem;
+  margin-top: 60px;
+  border-top: 1px solid #ccc;
+}
 
 
 

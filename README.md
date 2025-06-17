@@ -18,4 +18,4 @@ I chose the MIT License because it allows others to freely use, modify, and shar
 
 ## 🧠 AI Use Declaration
 Portions of this website (HTML/CSS styling guidance, layout planning, and accessibility polish) were assisted by ChatGPT under the guidance of CMPT 276’s AI usage policy.
-[AI Declaration Form](Mini-project_AI_Declaration_Jaskirat_Kaur_301638761)
+[AI Declaration Form](Miniproject_AI_Declaration_Jaskirat_Kaur_301638761)

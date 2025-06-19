@@ -9,7 +9,7 @@ This is my personal portfolio website built for the CMPT 276 mini project. It sh
 - JavaScript
 
 ## 🌐 Live Website
-[Click here to view the site](https://kiki3016.github.io/)
+[Click here to view the site]()
 
 ## 📄 License  
 This project is licensed under the MIT License.  

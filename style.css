@@ -1,4 +1,4 @@
-body{
+
     /* margin-left: 20px; */
         /* background-image:url(images/fabrizio-conti-k6GpdsPJSZw-unsplash.jpg); */
         /* background-size: cover;
@@ -9,10 +9,8 @@ body{
         background-blend-mode:lighten;
         background-position: 80px 80px; */
         /* margin: 10px; */
-        
-        
+    
 
-}
 header{
     display: flex;
     justify-content: space-between;
